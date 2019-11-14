@@ -38,3 +38,17 @@ print(s)
 
 r = " Hello"
 print(r * 100)
+
+# Tuples are comma separated items enclosed in paranthesis
+t = (1, 2, 3, 4)
+type(t)
+print(t)
+
+n = 100
+print(id(n))
+print(n)
+n=200
+print(id(n))
+print(n)
+
+
