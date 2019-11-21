@@ -18,3 +18,22 @@ while True:
         val = val1
 print(val)
 
+# Question 2: Given a range of numbers. Iterate from o^th number to the end number
+# and print the sum of the current number and previous number
+j = 0
+for i in [1,2,3,4,5,6]:
+    j = j + i
+print(j)
+
+# Question 3: Accept string from the user and display only those characters
+# which are present at an even index
+str = input('Enter a string value:')
+#cnt = len(str)
+for i,c in enumerate(str):
+    if i % 2 == 0:
+        #print(i)
+        print(c)
+# solution2, copied 
+for i in range(0, len(str)-1, 2):
+    print(str[i])
+
