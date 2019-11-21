@@ -33,7 +33,7 @@ for i,c in enumerate(str):
     if i % 2 == 0:
         #print(i)
         print(c)
-# solution2, copied 
-for i in range(0, len(str)-1, 2):
+# solution2, copied
+for i in range(0, len(str), 2):
     print(str[i])
 
