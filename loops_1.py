@@ -37,3 +37,39 @@ for i,c in enumerate(str):
 for i in range(0, len(str), 2):
     print(str[i])
 
+# Question 4: Given a string and an int n, remove characters from string starting
+# from zero up to n and return a new string
+str = input('Enter a string value:')
+num = input('Enter a string value:')
+val = ''
+for i in range(len(str)):
+    if i >= int(num):
+        val = val + str[i]
+print(val)
+
+# Question 5: Given a list of ints, return True if first and last number of a list is same
+num = input('Enter a number value:')
+if num[0] == num[len(num)-1]:
+    print('True')
+
+# Question 6: Given a list of numbers, Iterate it and print only those numbers which are divisible of 5
+l1 = [5,7,9,10,11,13,15,17,20,21,25,30]
+for i in range(len(l1)-1):
+    if l1[i] % 5 == 0:
+        print(l1[i])
+
+# Question 7: Return the number of times that the string “Emma” appears anywhere in the given string
+str = "Emma is a good developer. Emma is also a writer."
+print(str.count("Emma"))
+
+# Question 8: Print the following pattern
+#1
+#2 2
+#3 3 3
+#4 4 4 4
+#5 5 5 5 5
+num = 4
+for i in range(num):
+    print(i   i)
+
+
