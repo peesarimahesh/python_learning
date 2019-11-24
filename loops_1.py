@@ -68,8 +68,10 @@ print(str.count("Emma"))
 #3 3 3
 #4 4 4 4
 #5 5 5 5 5
-num = 4
-for i in range(num):
-    print(i   i)
+for i in range(6):
+    for j in range(i):
+        print(i, end = ' ')
+    print("")
 
+# Question 9: Reverse a given number and return true if it is the same as the original number
 
